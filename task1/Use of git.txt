@@ -1,0 +1,38 @@
+ Use of Git
+
+ What Git is for
+- Tracking changes in files over time
+- Managing project history with commits
+- Working on multiple features or fixes using branches
+- Reverting mistakes and comparing versions
+- Collaborating safely with others
+
+ Common uses
+- Save checkpoints with `git commit`
+- Stage changes with `git add`
+- See project history with `git log`
+- Create isolated work with `git branch`
+- Switch tasks with `git checkout` or `git switch`
+- Merge finished work with `git merge`
+
+ Typical workflow
+1. `git init` — start version control in a folder
+2. `git add .` — stage changed files
+3. `git commit -m "message"` — record the change
+4. `git status` — check what’s modified
+5. `git diff` — inspect changes before committing
+
+ Why use Git
+- Keeps a safe history of your code
+- Makes collaboration easier
+- Helps avoid accidental overwrites
+- Lets you experiment without breaking the main code
+
+ Useful commands
+- `git clone <repo>` — copy a repository
+- `git pull` — update from remote
+- `git push` — share your commits
+- `git status` — check current state
+- `git log` — view commit history
+
+> Git is the core tool for version control; it helps you manage code changes and work effectively on projects.
